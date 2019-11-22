@@ -19,3 +19,10 @@ Using a GRU network to prediction the trajectory of a "ballon".
 ## 需求
 需要对“ballon"下一时刻（min）的位置进行预测
 
+## 已完成
+- 数据预处理：特征提取/异常值局部中值平滑/归一化
+- 模型搭建：GRU
+- 模型训练：dropout/stacking/bidirectional
+
+## 未进行
+- 速度由于受风影响，存在钟摆效应，尚未拟合
