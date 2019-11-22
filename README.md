@@ -26,3 +26,11 @@ Using a GRU network to prediction the trajectory of a "ballon".
 
 ## 未进行
 - 速度由于受风影响，存在钟摆效应，尚未拟合
+
+## 模型效果
+| model | mae | mse |
+|:----:|:----:|:----:|
+|GRU|0.0019|9.1692e-05|
+|LSTM|0.0029|9.9008e-05|
+|BiGRU|0.0031|1.0198e-04|
+|StackingGRU|0.0438|0.0032|
