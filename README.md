@@ -27,9 +27,6 @@ Using a GRU network to prediction the trajectory of a "ballon".
 - 模型搭建：GRU
 - 模型训练：dropout/stacking/bidirectional
 
-## 未进行
-- 速度由于受风影响，存在钟摆效应，尚未拟合
-
 ## 模型效果
 | model | mae | mse |
 |:----:|:----:|:----:|
